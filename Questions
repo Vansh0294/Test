@@ -1,0 +1,21 @@
+					Test
+
+1. What are the important features of Java 8 ?
+2. What is jvm and is it platform independent. ?
+3. What is the difference between jdk & jre & jvm. ?
+4. Which class is the super class of all the classes. ?
+5. Why java does not support multiple inheritance. ?
+6. Why java is not pure object oriented language. ?
+7. Difference between overloading & overriding. Can we overload the main method ? 
+8. What are the different access specifiers. Explain with the program. ?
+9. What is the difference between access modifier & access specifier. ?
+10. What is the difference between final & static keyword. Can we declare a class as a static.
+11. What is the difference between abstract classes & interfaces. 
+12. What are wrapper classes. ?
+13. What is anonymous inner class. ?
+14. What is ternary operator. Explain with example. ?
+15. Explain super, this, garbage collection, pass by value, pass by reference. ?
+16. Wap to print duplicate elements of an array. 
+17. Wap to check whether the string is palindrome or not. ?
+18. Wap to print triangle. ?
+19. Wap to print series of prime numbers between 1 to 100. ?
