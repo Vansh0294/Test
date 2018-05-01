@@ -1,0 +1,165 @@
+Ques: Wap to check whether the string is palindrome or not. ?
+
+package Test;
+
+import java.util.Scanner;
+
+public class StringPal 
+{
+	String s,rev="";
+	int i,len;
+	
+	Scanner sc=new Scanner(System.in);
+	
+	public void pal()
+	{
+		System.out.println("Enter the String: ");
+		s=sc.next();
+		
+		len=s.length();
+		System.out.println("Reversed String: ");
+		
+		for(i=len-1;i>=0;i--)
+		{
+			rev=rev+s.charAt(i);
+		}
+		System.out.println(rev);
+		
+		if(s.equals(rev))
+		{
+			System.out.println(s+" is palindrome.");
+		}
+		else
+		{
+			System.out.println(s+" is not a palindrome.");
+		}
+	}
+	public static void main(String[] args) 
+	{
+		StringPal obj= new StringPal();
+		obj.pal();
+	}
+
+}
+
+
+Ques: Wap to print duplicate elements of an array.
+
+package Test;
+
+import java.util.Scanner;
+
+public class DuplicateElement 
+{
+	int arr[]=new int[5];
+	int i,j;
+	
+	Scanner sc= new Scanner(System.in);
+	
+	public void check()
+	{
+		System.out.println("Enter the numbers: ");
+		for(i=0;i<arr.length;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		
+		System.out.println("Entered numbers are: ");
+		for(i=0;i<arr.length;i++)
+		{
+			System.out.print(arr[i]);
+		}
+		
+		System.out.println();
+		
+		for(i=0;i<arr.length;i++)
+		{
+			for(j=i+1;j<arr.length;j++)
+			{
+				if(arr[i]==arr[j])
+				{
+					System.out.println(arr[j]+" is a Duplicate Number in the Array. .");
+				}
+			}
+		}
+		
+
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		DuplicateElement obj= new DuplicateElement();
+		obj.check();
+	}
+
+}
+
+
+Ques: Wap to print triangle. ?
+
+package Test;
+
+public class Triangle 
+{
+	int i,j,k=4;
+	
+	public void tri()
+	{
+		for(i=0;i<5;i++)
+		{
+			for(j=0;j<k;j++)
+			{
+				System.out.print(" ");
+			}
+		
+			k=k-1;
+		
+				for(j=0;j<=i;j++)
+					{
+						System.out.print("* ");
+	
+					}
+				System.out.println();			
+		}
+	}
+	public static void main(String[] args) 
+	{
+		
+		Triangle obj= new Triangle();
+		obj.tri();
+	}
+
+}
+
+
+Ques: What is ternary operator. Explain with example. ?
+
+package Test;
+
+import java.util.Scanner;
+
+public class Ternary 
+{
+	int a,b,high;
+	
+	Scanner sc= new Scanner(System.in);
+	
+	public void ter()
+	{
+		System.out.println("Enter the value of a: ");
+		a=sc.nextInt();
+		
+		System.out.println("Enter the value of b: ");
+		b=sc.nextInt();
+		
+		high= (a>b) ? a:b ;
+		System.out.println("Highest Number from a & b is: "+high);
+	}
+	public static void main(String[] args) 
+	{
+		Ternary obj= new Ternary();
+		obj.ter();
+	}
+
+}
