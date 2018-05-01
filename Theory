@@ -1,0 +1,58 @@
+Ques 1: Important features of java are:- 
+                               i). Java is an object oriented language.
+                               ii). Java is a platform independent language.
+                               iii). Java is a Secure language.
+                               iv). Use of Pointers is not there in java as Garbage Collector is used in java instead of pointers.
+
+Ques 2:Jvm stands for Java Virtual Machine. Jvm provides runtime environment. Jvm helps java to become platform independent language as the user can export the class file and then import it to some other machine. JVM helps in running the .class file as the user can export & import .class file from one machine to other can run the program easily.
+
+Ques 3: JVM: Java Virtual Machine provides runtime environment.
+        JRE: Java Runtime Environment contains all set of liabraries and JVM tools.
+        JDK: Java Development Kit is a package which contains all jre & development tool.
+
+Ques 4: Java.Lang is the super class of all the classes in java.
+
+Ques 5: Java does not support the multiple inheritance feature as one class cannot inherit two different classes. For that Interfaces are used.
+
+Ques 6: Java is not the pure object oriented language as we can run the method of a class without making an object of that class to call the method like Static 
+
+functions, they get called automatically without using object. As in pure object oriented language, all methods are called with the help of objects.
+
+Ques 7: Overloading means to use a method or constructor of the same name more than one time. 
+   Overriding means to change the previous value of the variable, method of the same name and declaring the new value to it.
+   No, we cannot overload the main method.
+
+Ques 8: Different Acces Specifiers are: Private,Public,Protected.
+	Public Acces Specifiers can be accessible within the class and outside the class.
+	Private Acces Specifiers can only be accessible within the class as the scope of the private is limited.
+	Protected Acces Specifiers can be accessible within the class and outside the class but with the help of object or super keyword.
+
+Ques 9: Difference between Access Specifier & Access Modifiers is that access specifier declares the value to a variable and the access modifiers change the 
+
+state of that variable i.e. they will modify the data type of that variable.
+
+Ques 10: Final keyword is the keyword which have the constant value & the value should be initialized. When final is used with a variable then the value of that variable cannot be override.
+      Static keyword is used to consume less memory as once a variable is defined as static with a value then if that variable is override then the previous    
+
+   value will be override by the new value rather than storing 2 different values in the memory .
+      Yes, we can declare a class as a Static.
+
+Ques 11: Abstract Classes are the classes which donot have the main method & they hide data and Interfaces are the empty shells and they donot have the 
+
+objects.
+
+Ques 12: Wrapper classes are the classes which converts the data type of a variable from one to another. In java this is done by type casting. Example: Integer, 
+
+Long, Byte, Double, Float, Short.
+
+Ques 14: Ternary Operator is the simplest form of performing operations on the variables like in a one line.
+
+Ques 15:  i) Super is a keyword used in the inheritance as one can inherit a variable,method with the help of super keyword else it will give an error of 
+
+"StackOverflow".
+     ii) This keyword is used to define the variable used in the parameter method or constructor. "This" defines that the value passed in the argument is 
+
+equal to the parametrized variable.
+    iii) Garbage Collection helps in memory consumption as it will free the memory of the variable which is not used.
+    iv) Pass by value will pass the value of the variable to the other variable.
+    v) Pass by reference will pass the reference of the variable to the other variable.
